@@ -1,0 +1,503 @@
+{
+    "menus":{
+            "main":{ 
+                "columns": 1, 
+                "buttons":{
+                    "english":[
+                        "Select level",
+                        "Options",
+                        "Quit"
+                    ],
+                    "polish":[
+                        "Wybierz poziom",
+                        "Ustawienia",
+                        "Wyjście"
+                    ],
+                    "german":[
+                        "Ebene auswählen",
+                        "Einstellungen",
+                        "Beenden"
+                        
+                    ],
+                    "russian":[
+                        "Выбирай уровень",
+                        "Настройки",
+                        "Выход"
+                    ],
+                    "italian":[
+                        "Scelta del livello",
+                        "Impostazioni",
+                        "Uscita"
+                    ]
+                },
+                "width": 0.5,
+                "height": 0.7,
+                "additional": {}
+            },
+            "select level":{
+                "columns": 4,
+                "buttons": {
+                    "english":[
+                        1, 2, 3, 4,
+                        5, 6, 7, 8,
+                        9,10,11,12
+                    ],
+                    "german":[
+                        1, 2, 3, 4,
+                        5, 6, 7, 8,
+                        9,10,11,12
+                    ],
+                    "polish":[
+                        1, 2, 3, 4,
+                        5, 6, 7, 8,
+                        9,10,11,12
+                    ],
+                    "russian":[
+                        1, 2, 3, 4,
+                        5, 6, 7, 8,
+                        9,10,11,12
+                    ],
+                    "italian":[
+                        1, 2, 3, 4,
+                        5, 6, 7, 8,
+                        9,10,11,12
+                    ]
+                },
+                "width": 0.5,
+                "height": 0.7,
+                "additional": {
+                    "name": {
+                        "english": "Return",
+                        "polish": "Powrót",
+                        "german": "Zurück",
+                        "russian": "Вернуть",
+                        "italian": "Indietro"
+                    },
+                    "x":0.8,
+                    "y":0.9,
+                    "width": 0.2,
+                    "height":0.1
+                }
+            },
+            
+            "options": {
+                "columns": 1,
+                "buttons": {
+                    "english":[
+                        "Language",
+                        "Player color",
+                        "Sound",
+                        "Difficulty"
+                    ],
+                    "german":[
+                        "Sprache",
+                        "Spielers Farbe",
+                        "Laut",
+                        "Schwierigkeit Niveau"
+                    ],
+                    "polish":[
+                        "Język",
+                        "Kolor gracza",
+                        "Dźwięk",
+                        "Poziom trudności"
+                    ],
+                    "russian":[
+                        "Язык",
+                        "Цвет игрока",
+                        "Звук",
+                        "Уровень сложности"
+                    ],
+                    "italian":[
+                        "Lingua",
+                        "Colore del giocatore",
+                        "Suono",
+                        "Livello"
+                    ]
+                    
+                },
+                "width": 0.45,
+                "height": 0.7,
+                "additional": {
+                    "name": {
+                        "english": "Return",
+                        "polish": "Powrót",
+                        "german": "Zurück",
+                        "russian": "Вернуть",
+                        "italian": "Indietro"
+                    },
+                    "x":0.8,
+                    "y":0.9,
+                    "width": 0.2,
+                    "height":0.1
+                }
+            },
+            
+            "language":{
+                "columns": 1,
+                "buttons": {
+                    "english":[
+                        "Polish",
+                        "English",
+                        "Russian",
+                        "German",
+                        "Italian"
+                    ],
+                    "german":[
+                        "Polnisch",
+                        "Englisch",
+                        "Russisch",
+                        "Deutsch",
+                        "Italienisch"
+                    ],
+                    "polish":[
+                        "Polski",
+                        "Angielski",
+                        "Rosyjski",
+                        "Niemiecki",
+                        "Włoski"
+                    ],
+                    "russian":[
+                        "Польский",
+                        "Англиский",
+                        "Руский",
+                        "Немецкий",
+                        "Итальский"
+                    ],
+                    "italian":[
+                        "Polacco",
+                        "Inglese",
+                        "Russo",
+                        "Tedesco",
+                        "Italiano"
+                    ]
+                },
+                "width": 0.45,
+                "height": 0.9,
+                "additional": {
+                    "name": {
+                        "english": "Return",
+                        "polish": "Powrót",
+                        "german": "Zurück",
+                        "russian": "Вернуть",
+                        "italian": "Indietro"
+                    },
+                    "x":0.8,
+                    "y":0.9,
+                    "width": 0.2,
+                    "height":0.1
+                }
+            },
+            
+            "player color": {
+                "columns": 1,
+                "buttons": {
+                    "english":[
+                        "Green",
+                        "Blue",
+                        "Yellow",
+                        "Red"
+                    ],
+                    "german":[
+                        "Grün",
+                        "Blau",
+                        "Gelb",
+                        "Rot"
+                    ],
+                    "polish":[
+                        "Zielony",
+                        "Niebieski",
+                        "Żółty",
+                        "Czerwony"
+                    ],
+                    "russian":[
+                        "Зеленый",
+                        "Синый",
+                        "Жолтый",
+                        "Красный"
+                    ],
+                    "italian":[
+                        "Verde",
+                        "Azzurro",
+                        "Giallo",
+                        "Rosso"
+                    ]
+                },
+                "width": 0.45,
+                "height": 0.7,
+                "additional": {
+                    "name": {
+                        "english": "Return",
+                        "polish": "Powrót",
+                        "german": "Zurück",
+                        "russian": "Вернуть",
+                        "italian": "Indietro"
+                        
+                    },
+                    "x":0.8,
+                    "y":0.9,
+                    "width": 0.2,
+                    "height":0.1
+                }
+            },
+            
+            "sound": {
+                "columns": 1,
+                "buttons": {
+                    "english":[
+                        "Music",
+                        "Sounds"
+                    ],
+                    "german":[
+                        "Musik",
+                        "Laut"
+                    ],
+                    "polish":[
+                        "Muzyka",
+                        "Dźwięki"
+                    ],
+                    "russian":[
+                        "Музыка",
+                        "Звуки"
+                    ],
+                    "italian":[
+                        "Musica",
+                        "Suono nel gioco"
+                    ]
+                },
+                "width": 0.45,
+                "height": 0.7,
+                "additional": {
+                    "name": {
+                        "english": "Return",
+                        "polish": "Powrót",
+                        "german": "Zurück",
+                        "russian": "Вернуть",
+                        "italian": "Indietro"
+                    },
+                    "x":0.8,
+                    "y":0.9,
+                    "width": 0.2,
+                    "height":0.1
+                }
+            },
+            
+            "difficulty": {
+                "columns": 1,
+                "buttons": {
+                    "english":[
+                        "Easy",
+                        "Normal",
+                        "Hard"
+                    ],
+                    "german":[
+                        "Leicht",
+                        "Normale",
+                        "Schwer"
+                    ],
+                    "polish":[
+                        "Łatwy",
+                        "Normalny",
+                        "Trudny"
+                    ],
+                    "russian":[
+                        "Лёгкий",
+                        "Нормальный",
+                        "Сложный"
+                    ],
+                    "italian":[
+                        "Facile",
+                        "Normale",
+                        "Difficile"
+                    ]
+                },
+                "width": 0.45,
+                "height": 0.7,
+                "additional": {
+                    "name": {
+                        "english": "Return",
+                        "polish": "Powrót",
+                        "german": "Zurück",
+                        "russian": "Вернуть",
+                        "italian": "Indietro"
+                        
+                    },
+                    "x":0.8,
+                    "y":0.9,
+                    "width": 0.2,
+                    "height":0.1
+                }
+            },
+            "inlevel":{
+                "columns": 1,
+                "buttons": {
+                    "english": [""],
+                    "polish": [""],
+                    "german": [""],
+                    "russian": [""],
+                    "italian": [""]
+                },
+                "width": 0,
+                "height": 0,
+                "additional": {
+                    "name": {
+                        "english": "#",
+                        "polish": "#",
+                        "german": "#",
+                        "russian": "#",
+                        "italian": "#"
+                    },
+                    "x":0,
+                    "y":0,
+                    "width": 0.04,
+                    "height":0.07
+                    
+                }
+            },
+            
+            "#":{
+                "columns": 3,
+                "buttons": {
+                    "english": [
+                        "Select level",
+                        "restart",
+                        "return"
+                    ],
+                    "polish": [
+                        "Wybierz poziom",
+                        "Ponów",
+                        "Powrót"
+                    ],
+                    "german": [
+                        "Ebene auswählen",
+                        "Neustart",
+                        "Zurück"
+                    ],
+                    "russian": [
+                        "Выбирай уровень",
+                        "Перезапуск",
+                        "Вернуть"
+                    ],
+                    "italian": [
+                        "Scelta del livello",
+                        "Riprova",
+                        "Indietro"
+                    ]
+                },
+                "width": 0.64,
+                "height": 0.15,
+                "additional": {
+                }
+            },
+            
+            "won":{
+                "columns": 3,
+                "buttons": {
+                    "english": [
+                        "Select level",
+                        "Play again",
+                        "Next level"
+                    ],
+                    "polish": [
+                        "Wybierz poziom",
+                        "Ponów",
+                        "Następny poziom"
+                    ],
+                    "german": [
+                        "Ebene auswählen",
+                        "Neustart",
+                        "Nächste Ebene"
+                    ],
+                    "russian": [
+                        "Выбирай уровень",
+                        "Перезапуск",
+                        "Следующий уровень"
+                    ],
+                    "italian": [
+                        "Scelta del livello",
+                        "Gioca di nuovo",
+                        "Il prossimo livello"
+                    ]
+                },
+                "width": 0.64,
+                "height": 0.15,
+                "additional": {
+                }
+            },
+            
+            "lost":{
+                "columns": 2,
+                "buttons": {
+                    "english": [
+                        "Select level",
+                        "play again"
+                    ],
+                    "polish": [
+                        "Wybierz poziom",
+                        "Ponów"
+                    ],
+                    "german": [
+                        "Ebene auswählen",
+                        "Neustart"
+                    ],
+                    "russian": [
+                        "Выбирай уровень",
+                        "Перезапуск"
+                    ],
+                    "italian": [
+                        "Scelta del livello",
+                        "Gioca di nuovo"
+                    ]
+                },
+                "width": 0.44,
+                "height": 0.15,
+                "additional": {
+                }
+            },
+            "game won":{
+                "columns": 3,
+                "buttons": {
+                    "english": [
+                        "Select level",
+                        "Play again",
+                        "The End"
+                    ],
+                    "polish": [
+                        "Wybierz poziom",
+                        "Ponów",
+                        "Koniec"
+                    ],
+                    "german": [
+                        "Ebene auswählen",
+                        "Neustart",
+                        "Die Ende"
+                    ],
+                    "russian": [
+                        "Выбирай уровень",
+                        "Перезапуск",
+                        "Конец"
+                    ],
+                    "italian": [
+                        "Scelta del livello",
+                        "Gioca di nuovo",
+                        "Fine"
+                    ]
+                },
+                "width": 0.64,
+                "height": 0.15,
+                "additional": {
+                    "name": {
+                        "english": "Victory!",
+                        "polish": "Wygrana!",
+                        "german": "Sieg!",
+                        "russian": "Победа!",
+                        "italian": "Vittoria"
+                        
+                    },
+                    "x":0.40,
+                    "y":0.265,
+                    "width": 0.172,
+                    "height":0.18
+                }
+            }
+    }
+}

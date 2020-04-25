@@ -1,0 +1,50 @@
+{
+    "actions":{
+        "change level":[
+                "1", "2", "3", "4",
+                "5", "6", "7", "8",
+                "9","10","11","12",
+                "next level"
+        ],
+        
+        "change language":[
+                "polish",
+                "english",
+                "russian",
+                "german",
+                "italian"
+        ],
+        
+        "change difficulty":[
+                "easy",
+                "normal",
+                "hard"
+        ],
+        
+        "change player color":[
+                "green",
+                "blue",
+                "yellow",
+                "red"
+        ],
+        "music settings":[
+                "music",
+                "sounds"
+        ],
+        
+        "return":[
+                "select level",
+                "return",
+                "quit"
+        ],
+        
+        "restart":[
+                "restart",
+                "play again"
+        ],
+        "credits":[
+            "the end",
+            "credits"
+        ]
+    }
+}
